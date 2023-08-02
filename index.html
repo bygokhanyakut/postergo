@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Giriş Sayfası</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 400px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .error {
+            color: red;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hoş Geldiniz</h1>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="username">Kullanıcı Adı:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Şifre:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="button" class="btn" onclick="login()">Giriş Yap</button>
+            <p class="error" id="errorText"></p>
+        </form>
+    </div>
+
+    <script>
+        function login() {
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+
+            // Burada gerçek bir doğrulama işlemi yapılmalıdır.
+            // Bu örnek için varsayılan kullanıcı adı ve şifre 'admin' olarak kabul edelim.
+            if (username === 'byroot' && password === '123456') {
+                // Başarılı giriş durumunda, kullanıcıyı başka bir siteye yönlendirin.
+                window.location.href = 'https://hedeflenen-site.com/';
+            } else {
+                document.getElementById('errorText').innerText = 'Kardeşim Şifre Yanlış Zorlama.';
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Giriş Sayfası</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(https://businessdiplomacy.net/wp-content/uploads/2019/06/shutterstock_1183086949-1-scaled.jpg); /* Arka plan resmi burada belirtiliyor */
+            background-size: cover; /* Resmin sayfa boyutuna uyacak şekilde yayılmasını sağlar */
+            background-position: center; /* Resmi sayfanın ortasına hizalar */
+            background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+        }
+        .container {
+            max-width: 400px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Sayfa içeriğinin arka planını hafifçe opaklaştırır */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        /* Diğer stiller burada */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Diğer içerikler burada -->
+    </div>
+
+    <script>
+        /* JavaScript kodu burada */
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sosyal Medya Yönlendirme</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sosyal medya hesabımız!</h1>
+        <p>Şikayetinizi veya önerinizi bildirin:</p>
+        <div class="social-media-links">
+            <a href="https://github.com/bygokhanyakut/phishingweb" target="_blank">
+                <img src="https://tr.wizcase.com/wp-content/uploads/2022/03/GitHub-Logo.png" alt="Facebook">
+            </a>
+            
+            <a href="https://chat.whatsapp.com/IuHOmD3Vzwe0Ova89HRv37" target="_blank">
+                <img src="https://play-lh.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN" alt="Twitter">
+            </a>
+
+            <a href="https://www.instagram.com/gokhan_yakut_04/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/600px-Instagram_logo_2022.svg.png" alt="Instagram">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Geri Sayım - Çok Yakında</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Çok Yakında!</h1>
+        <div class="countdown" id="countdown"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

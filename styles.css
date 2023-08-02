@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-links a {
+    margin: 10px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-media-links a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.social-media-links a:hover {
+    transform: scale(1.2);
+}
+
+/* İsteğe bağlı olarak logoların farklı renkte olmasını sağlayabilirsiniz */
+.facebook-logo img {
+    background-color: #3b5998; /* Facebook mavi rengi */
+}
+
+.twitter-logo img {
+    background-color: #1da1f2; /* Twitter mavi rengi */
+}
+
+.instagram-logo img {
+    background-color: #e4405f; /* Instagram pembe rengi */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.countdown {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
